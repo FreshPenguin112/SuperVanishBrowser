@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "SuperVanish Browser",
+  "description": "Small Browser that is bypassed from Hapara Teacher Dashboard",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
